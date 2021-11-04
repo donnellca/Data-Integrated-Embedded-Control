@@ -20,3 +20,7 @@ Continuous-learning - algorithm connecting time-series points, then triangulatin
 https://en.wikipedia.org/wiki/Agent-based_model
  - https://en.wikipedia.org/wiki/Cellular_automaton
  - https://en.wikipedia.org/wiki/Coupled_map_lattice
+
+https://en.wikipedia.org/wiki/Hybrid_system
+ - https://en.wikipedia.org/wiki/Petri_net
+ - https://en.wikipedia.org/wiki/Hybrid_bond_graph
