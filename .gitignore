@@ -1,2 +1,6 @@
-# Google Drive sync files
-*.ini
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+.*
+!/.gitignore
