@@ -12,9 +12,13 @@ Current topics of interest:
 
 Delaunay Triangulation Over Time | Voronoi Graph Over Time
 :---:|:---:
-![dalaunay](https://github.com/donnellca/Data-Integrated-Embedded-Control/blob/main/gifs/delaunay.gif) | ![voronoi](https://github.com/donnellca/Data-Integrated-Embedded-Control/blob/main/gifs/voronoi.gif)
+![dalaunay](docs/delaunay.gif) | ![voronoi](docs/voronoi.gif)
 
 ### Implications of taking samples from continuous time signals
+
+Van der Pol Uniformly Sampled | Van der Pol Sampled Over Time
+:---:|:---:
+![VanderPol_unif](docs/VanderPol_unif.png) | ![VanderPol_time](docs/delaunay.png)
 
 ### Clustering as a Nonlinearity Measure
 - We can find simplex transformations (our method of linearizing the dynamics of a region between points)
