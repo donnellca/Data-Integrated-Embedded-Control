@@ -30,3 +30,9 @@
 ### [Hybrid_system](https://en.wikipedia.org/wiki/Hybrid_system)
  - [Petri_net]((https://en.wikipedia.org/wiki/Petri_net)
  - [Hybrid_bond_graph](https://en.wikipedia.org/wiki/Hybrid_bond_graph)
+
+### Nonlinearity Measure
+ - S. Zeng, Observability measures for nonlinear systems
+   - Clustering of simplex translations
+   - group linearization
+   - simplex culling
