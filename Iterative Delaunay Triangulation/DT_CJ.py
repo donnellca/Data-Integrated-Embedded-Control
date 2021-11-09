@@ -1,4 +1,4 @@
-# Normal Delaunay Triangulation, from scipy
+# Delaunay Triangulation, random points example
 # Example courtesy of Catie Jo at https://medium.com/@catiejo/2d-delaunay-triangulation-by-hand-without-a-voronoi-diagram-513156fd549f
 
 import numpy as np
@@ -11,11 +11,8 @@ added_points = np.array([[-150, -100],[150, 100],[150, -150],[-150, 150],[0, 300
 tri = Delaunay(points, incremental=True,qhull_options="QJ")
 
 fig, ax = plt.subplots()
-
-def init_drawing():
-    ax.clear()
-    ax.triplot(points[:,0], points[:,1], tri.simplices)
-    plt.pause(1)
+ax.triplot(points[:,0], points[:,1], tri.simplices)
+plt.pause(1)
 
 def drawing(frame):
     global points
@@ -26,5 +23,5 @@ def drawing(frame):
     ax.clear()
     ax.triplot(points[:,0], points[:,1], tri.simplices)
 
-Animation = anime.FuncAnimation(fig,drawing,frames = range(0,max(added_points.shape)),init_func = init_drawing,interval=1000,repeat=False)
+Animation = anime.FuncAnimation(fig,drawing,frames = range(0,max(added_points.shape)),interval=1000,repeat=False)
 plt.show()

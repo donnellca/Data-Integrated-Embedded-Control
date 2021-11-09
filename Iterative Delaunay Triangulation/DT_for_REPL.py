@@ -1,5 +1,5 @@
-# Normal Delaunay Triangulation, from scipy
-# Example courtesy of Catie Jo at https://medium.com/@catiejo/2d-delaunay-triangulation-by-hand-without-a-voronoi-diagram-513156fd549f
+# Delaunay Triangulation, for use on REPL
+# Implements draw(point) to add points and locate(point) to find the simplex containing a point
 
 import numpy as np
 from scipy.spatial import Delaunay
@@ -29,8 +29,6 @@ def locate(point):
     loc = tri.find_simplex(point)
     ax.plot(point[0],point[1],'o')
     plt.show()
-    print(tri.simplices)
     loc_tri = tri.simplices[loc]
-    print(loc_tri)
     ax.triplot(points[:,0], points[:,1], [loc_tri])
     plt.show()
