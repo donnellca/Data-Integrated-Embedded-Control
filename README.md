@@ -14,6 +14,9 @@ Delaunay Triangulation Over Time | Voronoi Graph Over Time
 :---:|:---:
 ![dalaunay](docs/delaunay.gif) | ![voronoi](docs/voronoi.gif)
 
+- Higher order Delaunay triangulations may also provide better modelling, similar to increasing k in KNN
+  - [Higher order Delaunay triangulations](Papers/Higher%20order%20Delaunay%20triangulations.pdf)
+
 ### Implications of taking samples from continuous time signals
 
 Van der Pol Uniformly Sampled | Van der Pol Sampled Over Time
@@ -23,7 +26,7 @@ Van der Pol Uniformly Sampled | Van der Pol Sampled Over Time
 ### Clustering as a Nonlinearity Measure
 - We can find simplex transformations (our method of linearizing the dynamics of a region between points)
 - We can measure the similarity of these simplex transformations as a sort of non-linearity measure
-  - [S. Zeng, Observability measures for nonlinear systems](https://github.com/donnellca/Data-Integrated-Embedded-Control/blob/main/Papers/C1.Observability%20measures%20for%20nonlinear%20systems.pdf)
+  - [Observability measures for nonlinear systems](Papers/C1.Observability%20measures%20for%20nonlinear%20systems.pdf)
 - I also believe we can use simplex clustering to "cull" simplices in regions where the system is either very linear or has been oversampled
 
 ### Balancing the ideas of memory and computational efficiency
