@@ -6,7 +6,7 @@ function plot_clusters(TRI,TRI_clus)
     figure
     axis([-3 3 -3 3])
     hold on
-    for i=1:7
+    for i=1:length(a)
         triplot(TRI.ConnectivityList(TRI_clus==a(i),:),TRI.Points(:,1),TRI.Points(:,2),color(mod(i,7)+1))
     end
     hold off

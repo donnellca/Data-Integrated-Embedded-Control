@@ -1,6 +1,6 @@
 close all
 figure
-gif('Delaunay.gif')
+gif('test.gif')
 for i=5:length(T_i)
     DT = delaunayTriangulation(transpose(T_i(:,1:i*3)));
     triplot(DT.ConnectivityList,T_i(1,:),T_i(2,:),'b')
